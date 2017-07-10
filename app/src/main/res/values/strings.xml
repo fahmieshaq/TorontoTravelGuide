@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Toronto Travel Guide</string>
+
+    <!-- List of categories titles and subtitles -->
+    <string name="category_restaurants_primary">Restaurants</string>
+    <string name="category_restaurants_secondary">A list of local specialty restaurants</string>
+
+    <string name="category_entertainments_primary">Entertainments</string>
+    <string name="category_entertainments_secondary">A list of fun places for families</string>
+
+    <string name="category_events_primary">Events</string>
+    <string name="category_events_secondary">A list of seasonal activities</string>
+
+    <string name="category_museums_primary">Museums</string>
+    <string name="category_museums_secondary">A list of historical sites</string>
+
+    <string name="category_translation_primary">Translation</string>
+    <string name="category_translation_secondary">A list of Chinese phrases with audible English translations</string>
+
+    <!-- List of restaurants -->
+    <string name="restaurants_title_pide">Mr. Pide</string>
+    <string name="restaurants_address_pide">800 Danforth Ave</string>
+    <string name="restaurants_city_pide">Toronto, ON M4J1L6</string>
+    <string name="restaurants_phone_pide"><u>(647) 351&#8211;7433</u></string>
+    <string name="restaurants_email_pide"><u>info@mrpide.ca</u></string>
+    <string name="restaurants_website_pide"><u>www.mrpide.ca</u></string>
+
+    <string name="restaurants_title_works">The WORKS</string>
+    <string name="restaurants_address_works">60 Wellington St E</string>
+    <string name="restaurants_city_works">Toronto, ON M5E1C7</string>
+    <string name="restaurants_phone_works"><u>(416) 594&#8211;9675</u></string>
+    <string name="restaurants_email_works"><u>toronto@worksburger.com</u></string>
+    <string name="restaurants_website_works"><u>www.worksburger.com</u></string>
+
+    <string name="restaurants_title_gilaneh">Gilaneh Restaurant</string>
+    <string name="restaurants_address_gilaneh">900 York Mills Rd</string>
+    <string name="restaurants_city_gilaneh">North York, ON M3B3H2</string>
+    <string name="restaurants_phone_gilaneh"><u>(416) 390&#8211;9999</u></string>
+    <string name="restaurants_email_gilaneh"><u>info@gilaneh.ca</u></string>
+    <string name="restaurants_website_gilaneh"><u>www.gilaneh.ca</u></string>
+
+    <string name="restaurants_title_darband">Darband</string>
+    <string name="restaurants_address_darband">879 York Mills Rd</string>
+    <string name="restaurants_city_darband">North York, ON M3B1Y5</string>
+    <string name="restaurants_phone_darband"><u>(416) 445&#8211;1777</u></string>
+    <string name="restaurants_email_darband"><u>Email N/A</u></string>
+    <string name="restaurants_website_darband"><u>darbandrestaurant.net</u></string>
+
+    <string name="restaurants_title_messini">Messini</string>
+    <string name="restaurants_address_messini">445 Danforth Ave</string>
+    <string name="restaurants_city_messini">Toronto, ON M4K1P2</string>
+    <string name="restaurants_phone_messini"><u>(416) 778&#8211;4861</u></string>
+    <string name="restaurants_email_messini"><u>info@messini.ca</u></string>
+    <string name="restaurants_website_messini"><u>www.messini.ca</u></string>
+
+    <!-- List of entertainments -->
+    <string name="entertainments_title_wonderland">Wonderland</string>
+    <string name="entertainments_address_wonderland">1 Canada\'s Wonderland Drive</string>
+    <string name="entertainments_city_wonderland">Vaughan, ON L6A1S6</string>
+    <string name="entertainments_phone_wonderland"><u>(905) 832&#8211;7000</u></string>
+    <string name="entertainments_email_wonderland"><u>info@canadaswonderland.com</u></string>
+    <string name="entertainments_website_wonderland"><u>canadaswonderland.com</u></string>
+
+    <string name="entertainments_title_safari">African Lion Safari</string>
+    <string name="entertainments_address_safari">1386 Cooper Rd</string>
+    <string name="entertainments_city_safari">Hamilton, ON</string>
+    <string name="entertainments_phone_safari"><u>(519) 623&#8211;2620</u></string>
+    <string name="entertainments_email_safari"><u>admin@lionsafari.com</u></string>
+    <string name="entertainments_website_safari"><u>lionsafari.com</u></string>
+
+    <string name="entertainments_title_aquarium">Ripley\'s Aquarium</string>
+    <string name="entertainments_address_aquarium">288 Bremner Blvd</string>
+    <string name="entertainments_city_aquarium">Toronto, ON M5V3L9</string>
+    <string name="entertainments_phone_aquarium"><u>1 (877) 773&#8211;1497</u></string>
+    <string name="entertainments_email_aquarium"><u>TGServices@ripleysaquariumofcanada.com</u></string>
+    <string name="entertainments_website_aquarium"><u>ripleyaquariums.com</u></string>
+
+    <string name="entertainments_title_playdium">Playdium</string>
+    <string name="entertainments_address_playdium">99 Rathburn Rd W</string>
+    <string name="entertainments_city_playdium">Mississauga, ON L5B4C1</string>
+    <string name="entertainments_phone_playdium"><u>(905) 273&#8211;9000</u></string>
+    <string name="entertainments_email_playdium"><u>info@playdium.com</u></string>
+    <string name="entertainments_website_playdium"><u>playdium.com</u></string>
+
+    <!-- List of events -->
+    <string name="events_title_royalcircus">Royal Canadian Circus</string>
+    <string name="events_address_royalcircus">Toyland – Woodbine Mall</string>
+    <string name="events_city_royalcircus">Etobicoke, ON M9W6K5</string>
+    <string name="events_phone_royalcircus"><u>Phone N/A</u></string>
+    <string name="events_email_royalcircus"><u>Email N/A</u></string>
+    <string name="events_website_royalcircus"><u>royalcanadiancircus.ca</u></string>
+    <string name="events_period_royalcircus">Period: Aug 4 - Aug 7 (2017)</string>
+
+    <string name="events_title_greek">Krinos Greek Festival</string>
+    <string name="events_address_greek">Danforth Avenue</string>
+    <string name="events_city_greek">Toronto, ON</string>
+    <string name="events_phone_greek"><u>(416) 469&#8211;5634</u></string>
+    <string name="events_email_greek"><u>info@tasteofthedanforth.com</u></string>
+    <string name="events_website_greek"><u>tasteofthedanforth.com</u></string>
+    <string name="events_period_greek">Period: Aug 11 - Aug 13  (2017)</string>
+
+    <string name="events_title_magic">The Illusionists</string>
+    <string name="events_address_magic">300 King Street</string>
+    <string name="events_city_magic">Toronto, ON M5V1J2</string>
+    <string name="events_phone_magic"><u>(416) 872&#8211;1212</u></string>
+    <string name="events_email_magic"><u>tours@magicspace.net</u></string>
+    <string name="events_website_magic"><u>theillusionistslive.com</u></string>
+    <string name="events_period_magic">Period: Dec 12, 2017 - Jan 7, 2018</string>
+
+    <!-- List of museums -->
+    <string name="museums_title_fortyork">Fort York</string>
+    <string name="museums_address_fortyork">250 Fort York Blvd</string>
+    <string name="museums_city_fortyork">Toronto, ON M5V3K9</string>
+    <string name="museums_phone_fortyork"><u>(416) 392&#8211;6907</u></string>
+    <string name="museums_email_fortyork"><u>fortyork@toronto.ca</u></string>
+    <string name="museums_website_fortyork"><u>www.toronto.ca</u></string>
+
+    <string name="museums_title_mack">Mackenzie House</string>
+    <string name="museums_address_mack">82 Bond St</string>
+    <string name="museums_city_mack">Toronto, ON M5B1X2</string>
+    <string name="museums_phone_mack"><u>(416) 392&#8211;6915</u></string>
+    <string name="museums_email_mack"><u>machouse@toronto.ca</u></string>
+    <string name="museums_website_mack"><u>www.toronto.ca</u></string>
+
+    <string name="museums_title_gibson">Gibson House</string>
+    <string name="museums_address_gibson">5172 Yonge St</string>
+    <string name="museums_city_gibson">North York, ON M2N5P7</string>
+    <string name="museums_phone_gibson"><u>(416) 395&#8211;7432</u></string>
+    <string name="museums_email_gibson"><u>gibsonhouse@toronto.ca</u></string>
+    <string name="museums_website_gibson"><u>www.toronto.ca</u></string>
+
+    <!-- List of translation -->
+    <string name="translation_english_embassy">Where is the embassy of China?</string>
+    <string name="translation_chinese_embassy">中國大使館在哪裡？</string>
+
+    <string name="translation_english_restaurant">Where is Mandarin Restaurant?</string>
+    <string name="translation_chinese_restaurant">普通话餐厅在哪里？</string>
+
+    <string name="translation_english_train">Where is the nearest train station?</string>
+    <string name="translation_chinese_train">最近的火车站在哪？</string>
+
+    <string name="translation_english_taxi">Please call me a taxi as soon as possible</string>
+    <string name="translation_chinese_taxi">请尽快给我打电话</string>
+
+    <!-- List of activities app bar titles -->
+    <string name="appbar_title_restaurants">Restaurants</string>
+    <string name="appbar_title_entertainments">Entertainments</string>
+    <string name="appbar_title_events">Events</string>
+    <string name="appbar_title_museums">Museums</string>
+    <string name="appbar_title_translation">Translation</string>
+
+</resources>

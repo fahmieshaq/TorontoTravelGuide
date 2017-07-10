@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".EntertainmentsActivity">
+
+    <ImageView
+        android:id="@+id/img_listitem_entertainments"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        tools:src="@drawable/img_listitem_entertainments_safari" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/entertainments_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="@string/entertainments_title_safari" />
+
+        <TextView
+            android:id="@+id/entertainments_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/entertainments_address_safari" />
+
+        <TextView
+            android:id="@+id/entertainments_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/entertainments_city_safari" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/entertainments_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/entertainments_phone_safari" />
+
+        <TextView
+            android:id="@+id/entertainments_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/entertainments_email_safari" />
+
+        <TextView
+            android:id="@+id/entertainments_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/entertainments_website_safari" />
+
+    </LinearLayout>
+
+</LinearLayout>

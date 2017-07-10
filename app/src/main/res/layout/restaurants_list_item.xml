@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".RestaurantsActivity">
+
+    <ImageView
+        android:id="@+id/img_listitem_restaurants"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        tools:src="@drawable/img_listitem_restaurants_pide" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/restaurants_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="@string/restaurants_title_pide" />
+
+        <TextView
+            android:id="@+id/restaurants_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/restaurants_address_pide" />
+
+        <TextView
+            android:id="@+id/restaurants_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/restaurants_city_pide" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/restaurants_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/restaurants_phone_pide" />
+
+        <TextView
+            android:id="@+id/restaurants_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/restaurants_email_pide" />
+
+        <TextView
+            android:id="@+id/restaurants_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/restaurants_website_pide" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".EventsActivity">
+
+    <ImageView
+        android:id="@+id/img_listitem_events"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_vertical"
+        tools:src="@drawable/img_listitem_events_greek" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/events_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="@string/events_title_greek" />
+
+        <TextView
+            android:id="@+id/events_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/events_address_greek" />
+
+        <TextView
+            android:id="@+id/events_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/events_city_greek" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/events_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/events_phone_greek" />
+
+        <TextView
+            android:id="@+id/events_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/events_email_greek" />
+
+        <TextView
+            android:id="@+id/events_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            tools:text="@string/events_website_greek" />
+
+    </LinearLayout>
+
+</LinearLayout>
