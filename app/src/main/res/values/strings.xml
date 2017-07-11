@@ -149,4 +149,8 @@
     <string name="appbar_title_museums">Museums</string>
     <string name="appbar_title_translation">Translation</string>
 
+    <!-- Toast messages -->
+    <string name="toast_msg_invalid_phone">Invalid phone. Visit our website</string>
+    <string name="toast_msg_invalid_email">Invalid email. Please call us</string>
+
 </resources>

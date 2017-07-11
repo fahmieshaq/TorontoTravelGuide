@@ -57,7 +57,7 @@ public class EntertainmentAdapter extends ArrayAdapter<Entertainment> {
                         getContext().startActivity(intent);
                     }
                 } else {
-                    Toast.makeText(getContext(), "Invalid phone. Visit our website", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), getContext().getString(R.string.toast_msg_invalid_phone), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -75,7 +75,7 @@ public class EntertainmentAdapter extends ArrayAdapter<Entertainment> {
                         getContext().startActivity(intent);
                     }
                 } else {
-                    Toast.makeText(getContext(), "Invalid Email. Please call us", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getContext(), getContext().getString(R.string.toast_msg_invalid_email), Toast.LENGTH_SHORT).show();
                 }
             }
         });
